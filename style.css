@@ -2,8 +2,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'PT Serif', serif;
-    width: 80%;
-    margin: auto;
+}
+.max-width{
+    width: 90%;
+    margin: 0 auto;
 }
 .container{
     display: flex;
@@ -15,7 +17,7 @@ body{
     width: 50%;
     padding-left:2%;
 }
-.about-explore p{
+p{
     color: rgb(75, 80, 77);
     margin: 20px 0px;
 }
@@ -88,13 +90,34 @@ body{
 .develop-area{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 0% 50%;
     background-size: 100px; ;
 }
 .comunity-area{
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position-y:bottom;
-    background-size: 100px;
+    background-position:100% 110%;
+    background-size: 200px;
 
+}
+.footer-area{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+.footer-area h1{
+    color: white;
+}
+
+.contact-area h1{
+    text-align: center;
+    font-size: 35px;
+}
+.submit input{
+    display: block;
+    margin:35px 0;
+    background-color: rgb(167, 156, 154);
+    padding: 15px;
+    border-radius: 10px;
 }
