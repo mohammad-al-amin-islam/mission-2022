@@ -2,10 +2,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'PT Serif', serif;
+    width: 90%;
+    margin: auto;
 }
-.explore-area{
+.container{
     display: flex;
     margin: 50px 0;
+    
 
 }
 .half-width{
@@ -36,4 +39,28 @@ body{
     border-radius: 5px;
     color: white;
 
+}
+.my-mission-area h1{
+    text-align: center;
+    font-size: 35px;
+}
+.mission img{
+    width: 25%;
+}
+.mission{
+    width: 33%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px 20px;
+    border-radius: 25px;
+
+}
+.mission-one-color{
+    background-color: rgb(194, 181, 181);
+}
+.mission-two-color{
+    background-color: rgb(141, 148, 141)
+}
+.mission-three-color{
+    background-color: rgb(166, 166, 173);
 }
