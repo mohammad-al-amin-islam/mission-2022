@@ -68,13 +68,13 @@ h1{
 
 }
 .mission-one-color{
-    background-color: rgb(194, 181, 181);
+    background-color: rgb(179, 174, 174);
 }
 .mission-two-color{
-    background-color: rgb(141, 148, 141)
+    background-color: rgb(255, 228, 196);
 }
 .mission-three-color{
-    background-color: rgb(166, 166, 173);
+    background-color: rgb(173, 216, 230);
 }
 .develop-image img{
     width: 70%;
@@ -98,10 +98,11 @@ h1{
     background-size: 100px; ;
 }
 .comunity-area{
+    padding-bottom: 50px;
     background-image: url(./images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position:100% 110%;
-    background-size: 200px;
+    background-position:93% 95%;
+    background-size: 115px;
 
 }
 .footer-area{
